@@ -47,7 +47,7 @@ table {
 }
 th,
 td {
-  padding: 1% 1%;
+  padding: 10px 15px;
 }
 thead {
   background: #395870;
@@ -58,11 +58,13 @@ tbody tr:nth-child(even) {
 }
 td {
   border-bottom: 1px solid #cecfd5;
-  border-right: 1% solid #cecfd5;
+  border-right: 1px solid #cecfd5;
 }
 td:first-child {
-  border-left: 1% solid #cecfd5;
+  border-left: 1px solid #cecfd5;
 }
+
+
 
 /*
   ========================================
@@ -81,19 +83,19 @@ td:first-child {
 .container,
 .grid {
   margin: 0 auto;
-  width: 100%;
+  width: 1260px;
 }
 .container {
-  padding-left: 2%;
-  padding-right: 1%;
+  padding-left: 30px;
+  padding-right: 15px;
 }
 
 .grid,
 .col-1-4,
 .col-2-4,
 .col-3-4 {
-  padding-left: 1%;
-  padding-right: 1%;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .col-1-4,
@@ -120,7 +122,7 @@ td:first-child {
 
 .row,
 .row-alt{
-  min-width: 100%;
+  min-width: 1260px;
 }
 .row {
   background: #fff;
@@ -238,7 +240,7 @@ cite, em {
 }
 .btn-alt {
   border: 1px solid #fff;
-  padding: 10px 3%;
+  padding: 10px 30px;
 }
 .btn-alt:hover {
   background: #fff;
@@ -247,7 +249,7 @@ cite, em {
 .btn-default {
   border: 0;
   background: #648880;
-  padding: 11px 2%;
+  padding: 11px 30px;
   font-size: 14px;
 }
 .btn-default:hover {
@@ -285,7 +287,7 @@ p a {
 }
 .nav li {
   display: inline-block;
-  margin: 0 1%;
+  margin: 0 10px;
   vertical-align: top;
 }
 .nav li:last-child {
@@ -363,7 +365,7 @@ p a {
 .misc {
   color: #fff;
   line-height: 44px;
-  padding: 22px 6% 66px 6%;
+  padding: 22px 80px 66px 80px;
   text-align: center;
 }
 .misc h2 {
@@ -418,7 +420,7 @@ td {
   vertical-align: top;
 }
 th {
-  padding-right: 3.5%;
+  padding-right: 45px;
   text-align: right;
   width: 20%;
 }
@@ -445,7 +447,7 @@ tbody td {
   padding-top: 21px;
 }
 tbody td:first-of-type {
-  padding-right: 1%;
+  padding-right: 15px;
 }
 tbody td:last-of-type {
   padding-left: 15px;
@@ -472,7 +474,7 @@ table h4 {
 
 .why-order {
   list-style: square;
-  margin: 0 0 22px 2.4%;
+  margin: 0 0 22px 30px;
 }
 form {
   margin-bottom: 22px;
@@ -495,7 +497,7 @@ textarea {
   color: #888;
   display: block;
   margin: 5px 0 27px 0;
-  padding: 5px 0.6%;
+  padding: 5px 8px;
 }
 .order-prj input,
 .order-prj textarea {
@@ -503,12 +505,11 @@ textarea {
 }
 .order-prj select {
   height: 34px;
-  width: 4.8%;
+  width: 60px;
 }
 .order-prj textarea {
   height: 78px;
 }
-
 
 /*Responsive Design Code*/
 /* Tablet Landscape */
