@@ -212,7 +212,7 @@ cite, em {
   ========================================
   Carousel
   ========================================
-*/
+
 .carousel-content {
   position: absolute;
   bottom: 10%;
@@ -222,7 +222,7 @@ cite, em {
   text-shadow: 0 1px 2px rgba(0,0,0,1.0);
   .mx-auto;
 }
-
+*/
 .carousel-item img{
   opacity:0.5;
 }
