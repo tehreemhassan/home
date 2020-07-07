@@ -223,6 +223,10 @@ cite, em {
   .mx-auto;
 }
 
+.carousel-item img{
+  opacity:0.8;
+}
+
 /*
   ========================================
   Leads
