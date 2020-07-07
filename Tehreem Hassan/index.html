@@ -89,54 +89,63 @@
 	</section>
 
 	<section class="misc container">
-		<a class="btn btn-alt" href="https://learn.shayhowe.com/html-css/" target="_blank" tabindex="15">Web Design Coding</a>
+		<a class="btn btn-alt" href="https://learn.shayhowe.com/html-css/" target="_blank" tabindex="15">Learn Web Design</a>
 		<br>
 		<br>
-		<h2>Sadness</h2>
+		<h2>Golden Words</h2>
 		<!--<video src="assets/strawberry.mp4" alt="Strawberry with Cream" width="20%" loop controls>Your browser does not support the <code>video</code>element</video> 
 		<br>
 		<audio src="assets/BellaCiao.mp3#t=83,115" controls>Bella Ciao from La Casa De Papal Money Heist</audio>
 		<br>-->
 		<blockquote><cite> "It's a lot easier to write a clean code the first time than to fix a broken code."</cite>Colleen van Lent, PhD</blockquote>
 	</section>
+	
+	<div id="services" class="carousel slide" data-ride="carousel">
 
-	<section class="row">
-		<div class="grid">
-			<section class="teaser col-1-4">
-				<h5>Articles</h5>
-				<a href="articles.html" tabindex="16">
-					<img src="assets/img/home/articles.jpg" alt="A typewriter pushing out paper">
-					<h3>Research Articles</h3>
-				</a>
-				<p>Articles written by Tehreem Hassan regarding different projects conducted during the period of undergraduate degree, and graduate degree.</p>
-			</section><!--
-	 	 --><section class="teaser col-1-4">
-				<h5>Seminars</h5>
-				<a href="seminars.html" tabindex="17">
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#services" data-slide-to="0" class="active"></li>
+    <li data-target="#services" data-slide-to="1"></li>
+    <li data-target="#services" data-slide-to="2"></li>
+    <li data-target="#services" data-slide-to="3"></li>
+  </ul>
+
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <a href="articles.html" tabindex="16">
+	      <img src="assets/img/home/articles.jpg" alt="A typewriter pushing out paper">
+	      <h3>Research Articles</h3>
+	    </a>
+    </div>
+    <div class="carousel-item">
+<a href="seminars.html" tabindex="17">
 					<img src="assets/img/home/seminars.jpg" alt="A projected screen, and a man presenting to a crowd">
 					<h3>Seminar Presentations</h3>
 				</a>
-				<p>Keynote presentations by Tehreem Hassan regarding different projects conducted during the period of undergraduate degree, and graduate degree.</p>
-			</section><!--
-		 --><section class="teaser col-1-4">
-				<h5>Webpages</h5>
-				<a href="webpages.html" tabindex="18">
-					<img src="assets/img/home/webdesign.jpg" alt="Complicated Code on a blurred computer screen">
-					<h3>Designed Webpages</h3>
-				</a>
-				<p>Webpages developed by Tehreem Hassan using HTML5, and CSS3.</p>
-			</section>
-			<!--
-		 --><section class="teaser col-1-4">
-				<h5>Mobile Apps</h5>
-				<a href="apps.html" tabindex="19">
-					<img src="assets/img/home/apps.jpg" alt="A man using an Android Smartphone">
-					<h3>Android Apps for Mobile</h3>
-				</a>
-				<p>Android apps developed by Tehreem Hassan regarding different projects conducted during the period of undergraduate degree.</p>
-			</section>
-		</div>
-	</section>
+    </div>
+    <div class="carousel-item">
+      <a href="webpages.html" tabindex="18">
+          <img src="assets/img/home/webdesign.jpg" alt="Complicated Code on a blurred computer screen">
+          <h3>Designed Webpages</h3>
+        </a>
+    </div>
+    <div class="carousel-item"><a href="apps.html" tabindex="19">
+          <img src="assets/img/home/apps.jpg" alt="A man using an Android Smartphone">
+          <h3>Android Apps for Mobile</h3>
+        </a>
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+
+</div>
 	<footer class="container footer mt-auto py-3 fixed-bottom">
 		<address>Islamabad, Pakistan 44000</address>
 		<a href="https://twitter.com/" aria-label="Twitter" tabindex="13"> <i class="fa fa-twitter"></i></a>
