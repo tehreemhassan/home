@@ -2,9 +2,18 @@
 <html lang = "en">
 <head>
 	<title>Place Order</title>
+	<!-- Bootstrap -->
+	<!-- Latest compiled and minified CSS -->
+    	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    
+    	<!-- Required meta tags -->
+    	<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
 	<script src="https://kit.fontawesome.com/4a36d8fb94.js" crossorigin="anonymous"></script>
-	<link rel="stylesheet" type="text/css" href="assets/stylesheets/main.css">
 	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:100,300,400">
+
+	<link rel="stylesheet" type="text/css" href="assets/stylesheets/main.css">
 </head>
 <body>
 	<header class="primary-header container group">
@@ -32,68 +41,56 @@
 		<div class="grid">
 
 			<section class="col-2-4">
-				<h2>Purchase a Conference Pass</h2>
-				<h5>$99 per Pass</h5>
-				<p>Purchase your Styles Conference pass using the form to the right. Multiple passes may be purchased within the same order, so feel free to bring a friend or two along. Once your order is finished we&#8217;ll follow up and provide a receipt for your purchase. See you soon!</p>
-  				<h4>Why Attend?</h4>
-  				<ul class="why-order">
-					<li>Over twenty world-class speakers</li>
-    				<li>One full day of workshops and two full days of presentations</li>
-    				<li>Hosted at The Chicago Theatre, a historical landmark</li>
-    				<li>August in Chicago is simply amazing</li>
-    			</ul>
-    		</section>
+				<h2>Place Order for an Article, Electronic Project, App Development, or Web Design</h2>
+				<h5>At the rate of $13 per hour</h5>
+				<p>Place an order using the form to the right. Once your order is finished we&#8217;ll follow up and provide a receipt for your purchase. Get back to you soon!</p>
+			</section>
 
 			<form class="col-2-4" action="#" method="post">
 				<fieldset class="order-prj">
 					<label>
 						Name
-    					<input type="text" name="name" placeholder="Full name" required>
-    				</label>
+    						<input type="text" name="name" placeholder="Full name" required>
+    					</label>
 
-    				<label>
-      					Email
-      					<input type="email" name="email" placeholder="Email address" required>
-    				</label>
+    					<label>
+      						Email
+      						<input type="email" name="email" placeholder="Email address" required>
+    					</label>
 
-    				<label>
-    					Number of Passes
-      					<select name="quantity" required>
-        					<option value="1" selected>1</option>
-        					<option value="2">2</option>
-       						<option value="3">3</option>
-        					<option value="4">4</option>
-        					<option value="5">5</option>
-      					</select>
-    				</label>
+    					<label>
+    						Place Order for
+      						<select name="quantity" required>
+        						<option value="1" selected>Article</option>
+        						<option value="2">Presentation/Keynote</option>
+       							<option value="3">Web Development</option>
+        						<option value="4">Android App Development</option>
+        						<option value="5">Electronics Project</option>
+      						</select>
+    					</label>
 
-    				<label>
-      					Comments
-      					<textarea name="comments"></textarea>
-    				</label>
-
-  				</fieldset>
-				<input class="btn btn-default" type="submit" name="submit" value="Purchase">
+    					<label>
+      						Details on the Order
+      						<textarea name="comments"></textarea>
+    					</label>
+				</fieldset>
+				<input class="btn btn-default" type="submit" name="submit" value="Submit">
 			</form>
 		</div>
 	</section>
 	
-	<footer class="container">
-		<nav class="nav">
-			<ul>
-				<li><a href="index.html">Home</a></li><!--
-				--><li><a href="articles.html">Articles</a></li><!--
-				--><li><a href="seminars.html">Seminars</a></li><!--
-				--><li><a href="webpages.html">Webpages</a></li><!--
-				--><li><a href="apps.html">Mobile Applications</a></li><!--
-				--><li><a href="electronics.html">Electronics Projects</a></li>
-			</ul>
-		</nav>
+	<footer class="container footer mt-auto py-3 fixed-bottom">
 		<address>Islamabad, Pakistan 44000</address>
-		<a href="https://twitter.com/" aria-label="Twitter"> <i class="fa fa-twitter"></i></a>
+		<a href="https://twitter.com/" aria-label="Twitter" tabindex="13"> <i class="fa fa-twitter"></i></a>
 		<small>&copy; Tehreem Hassan</small>
-		<a href="contact.html">Contact Us</a>
+		<a href="contact.html" tabindex="14">Contact Us</a>
 	</footer>
-
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+	<!-- Plugin JavaScript -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+	<!-- Custom JavaScript for this theme -->
+	<script src="../assets/js/scrolling-nav.js"></script>
 </body>
 </html>
