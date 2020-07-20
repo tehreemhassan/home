@@ -169,7 +169,7 @@ html
   color: #555
 }
 p{
-  color: #00ffc6;
+  color: #0c0c0c;
 }
 
 /*
@@ -179,7 +179,6 @@ p{
 */
 body {
   background: #293f50;
-  color: #888;
   font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 h1, h2, h3, h4 {
