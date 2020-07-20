@@ -48,7 +48,7 @@ td {
   padding: 10px 15px;
 }
 thead {
-  background: #73434B;
+  background: #BF9780;
   color: #fff;
 }
 tbody tr:nth-child(even) {
@@ -274,7 +274,7 @@ cite, em {
   color: #F2E6D8;
 }
 a {
-  color: #73434B;
+  color: #F2E6D8;
   text-decoration: none;
 }
 a:hover {
@@ -533,5 +533,4 @@ textarea {
 body {
   line-height: 1;
   padding-bottom: 60px;
-  color: #fff;
 }
