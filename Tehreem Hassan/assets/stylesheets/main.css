@@ -470,6 +470,9 @@ table a {
 table h4 {
   margin-bottom: 0;
 }
+.table{
+  color:#c18282;
+}
 .schedule-offset {
   color: #BF9780;
 }
@@ -521,9 +524,9 @@ textarea {
 
 /*for responsive navbar*/
 .container {
-  			width: auto;
-  			max-width: 680px;
-  			padding: 0 15px;
+        width: auto;
+        max-width: 680px;
+        padding: 0 15px;
 }
 .footer {
   padding: 15px;
