@@ -161,12 +161,15 @@ td:first-child {
   ========================================
 */
 
-h1, h3, h4, h5, p {
+h1, h3, h4, h5 {
   margin-bottom: 22px;
 }
 html
 {
   color: #555
+}
+p{
+  color: #00ffc6;
 }
 
 /*
