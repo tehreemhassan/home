@@ -149,10 +149,6 @@ tbody tr:nth-child(even) {
 h1, h3, h4, h5 {
   margin-bottom: 22px;
 }
-html, p, a
-{
-  color: #fff
-}
 
 
 /*
@@ -164,7 +160,7 @@ body {
   background: #401818;
   font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-h1, h2, h3, h4 {
+h1, h2, h3, h4, a {
   color: #19c5af;
 }
 h1 {
@@ -186,6 +182,10 @@ h5 {
   font-size: 14px;
   font-weight: 400;
   text-transform: uppercase;
+}
+html, p
+{
+  color: #fff
 }
 strong {
   font-weight: 400;/*normal*/
