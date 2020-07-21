@@ -267,11 +267,11 @@ cite, em {
   Links
   ========================================
 */
-.teaser a:hover h3 {
+.teaser a:hover {
   color: #F2E6D8;
 }
 a {
-  color: #b76060;
+  color: #Fff;
   text-decoration: none;
 }
 a:hover {
