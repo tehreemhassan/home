@@ -149,7 +149,7 @@ tbody tr:nth-child(even) {
 h1, h3, h4, h5 {
   margin-bottom: 22px;
 }
-html, p
+html, p, a
 {
   color: #fff
 }
@@ -271,7 +271,6 @@ cite, em {
   color: #F2E6D8;
 }
 a {
-  color: #Fff;
   text-decoration: none;
 }
 a:hover {
