@@ -113,15 +113,12 @@ tbody tr:nth-child(even) {
 .row-alt{
   min-width: 1260px;
 }
-.row {
-  background: #fff;
-  padding: 66px 0 44px 0;
-}
+
 .row-alt {
    background: #8C7268;
-   background: -webkit-linear-gradient(to right, #F2E6D8, #BF9780);
-   background: -moz-linear-gradient(to right, #F2E6D8, #BF9780);
-   background: linear-gradient(to right, #F2E6D8, #BF9780);
+   background: -webkit-linear-gradient(to right, #73434B, #F2E6D8);
+   background: -moz-linear-gradient(to right, #73434B, #F2E6D8);
+   background: linear-gradient(to right, #73434B, #F2E6D8);
    padding: 44px 0 22px 0;
  }
 
