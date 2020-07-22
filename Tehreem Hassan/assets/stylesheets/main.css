@@ -411,6 +411,7 @@ p a {
 */
 
 table {
+  margin: 15px 15px 15px 15px;
   margin-bottom: 44px;
   width: 100%;
 }
@@ -508,10 +509,10 @@ textarea {
 }
 
 /*for responsive navbar*/
-.navbar .container {
+.container {
         width: auto;
-        max-width: 380px;
-        padding: 0 5px;
+        max-width: 560px;
+        padding: 0 15px;
 }
 .footer {
   padding: 15px;
