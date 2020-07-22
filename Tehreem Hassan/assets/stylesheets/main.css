@@ -440,14 +440,14 @@ thead th {
   font-size: 24px;
 }
 tbody th {
-  color: #BF9780;
+  color: #000;
   font-size: 14px;
   font-weight: 400;
   padding-top: 22px;
   text-transform: uppercase;
 }
 tbody td {
-  border-top: 1px solid #F2E6D8;
+  border-top: 1px solid #73434B;
   padding-top: 21px;
 }
 table a {
@@ -517,6 +517,9 @@ textarea {
 .footer {
   padding: 15px;
   background-color: #f5f5f5;
+}
+.footer a{
+  color: #000;
 }
 
 body {
