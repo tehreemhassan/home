@@ -510,7 +510,7 @@ textarea {
 /*for responsive navbar*/
 .container {
         width: auto;
-        max-width: 680px;
+        max-width: 380px;
         padding: 0 15px;
 }
 .footer {
