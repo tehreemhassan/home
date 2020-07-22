@@ -508,7 +508,7 @@ textarea {
 }
 
 /*for responsive navbar*/
-.container {
+.navbar .container {
         width: auto;
         max-width: 380px;
         padding: 0 5px;
