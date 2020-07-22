@@ -43,17 +43,6 @@ table {
   border-collapse: separate;
   border-spacing: 0;
 }
-th,
-td {
-  padding: 10px 15px;
-}
-thead {
-  background: #BF9780;
-  color: #fff;
-}
-tbody tr:nth-child(even) {
-  background: #F2E6D8;
-}
 
 /*
   ========================================
@@ -451,16 +440,27 @@ tbody td {
   padding-top: 21px;
 }
 table a {
-  color: #BF9780;
+  color: #FFEBFF;
 }
 table h4 {
   margin-bottom: 0;
 }
 .table{
-  color:#c18282;
+  color:#FFF;
 }
 .schedule-offset {
-  color: #BF9780;
+  color: #F2E6D8;
+}
+th,
+td {
+  padding: 10px 15px;
+}
+thead {
+  background: #941E24;
+  color: #fff;
+}
+tbody tr:nth-child(even) {
+  background: #73434B;
 }
 
 /*
